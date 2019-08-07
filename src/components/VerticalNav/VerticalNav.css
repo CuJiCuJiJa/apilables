@@ -1,0 +1,10 @@
+.VerticalNav-container{
+    background: #ff4c3a;
+    
+    width: 200px;
+}
+
+.Nav-item{
+    display: block;
+    padding: 12px;
+}
