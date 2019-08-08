@@ -1,10 +1,14 @@
 .VerticalNav-container{
     background: #ff4c3a;
-    
     width: 200px;
+    position: fixed;
+    height: 100%;
+    width: 55px;
+    display: block;;
 }
 
-.Nav-item{
-    display: block;
-    padding: 12px;
+a.nav-link, li.nav-item{
+    display: center;
+    margin: 0%;
+    padding: 0%;
 }

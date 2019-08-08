@@ -1,0 +1,16 @@
+div.ProyectoReadMore-container { 
+    background: #ff4c3a;
+    color: #fff;
+    padding: 70px 0;
+    width: 100%;
+}
+
+p   {
+    max-width: 550px;
+    }
+
+button.btn {
+    border-color: #fff;
+    color: #fff;
+    background-color: #ff4c3a
+}

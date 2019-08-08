@@ -1,24 +1,26 @@
 import React from 'react';
-import './VerticalNav.css';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import './Footer.css';
+import { Nav, NavLink, NavItem } from 'reactstrap';
 
 
-class VerticalNav extends React.Component {
+class Footer extends React.Component {
 
     render() {
         return (
-            <div className="VerticalNav-container" >
-                
-                <Nav vertical>
+            <div className="Footer-container">
+                <Nav>
                     <NavItem>
                         <NavLink href="#">Link</NavLink>
                     </NavItem>
+
                     <NavItem>
                         <NavLink href="#">Link</NavLink>
                     </NavItem>
+
                     <NavItem>
                         <NavLink href="#">Another Link</NavLink>
                     </NavItem>
+
                     <NavItem>
                         <NavLink disabled href="#">Disabled Link</NavLink>
                     </NavItem>
@@ -28,4 +30,4 @@ class VerticalNav extends React.Component {
     }
 }
 
-export default VerticalNav;
+export default Footer;
