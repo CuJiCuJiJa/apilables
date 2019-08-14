@@ -7,7 +7,7 @@ class Footer extends React.Component {
 
     render() {
         return (
-            <div className="Footer-container">
+            <div className="container gris">
                 <Nav>
                     <NavItem>
                         <NavLink href="#">Link</NavLink>

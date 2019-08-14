@@ -1,12 +1,12 @@
 import React from 'react';
-import './ProyectoReadMore.css';
+import { Col, Jumbotron, Button } from 'reactstrap';
 
-class ProyectoReadMore extends React.Component {
+class ProjectPreview extends React.Component {
 
     render() {
         return (
-            <div className="ProyectoReadMore-container">
-                <div class="wrap-text">
+            <Col >
+                <Jumbotron>
                     "IMAGEN"
                     <p>
                         “Apilable al infinito” (se apila, se archiva, se comparte).
@@ -14,11 +14,11 @@ class ProyectoReadMore extends React.Component {
                         Apilable como archivo que construye legibilidades posibles.
                         Reescrituras. 
                     </p>
-                    <button class="btn btn-info">Conocer Más</button>
-                </div>
-            </div>
-        )    
+                    <Button className="btn btn-info">Conocer Más</Button>
+                </Jumbotron>
+            </Col>
+       )        
     }
 }
 
-export default ProyectoReadMore;
+export default ProjectPreview;

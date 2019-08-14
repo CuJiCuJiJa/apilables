@@ -27,3 +27,55 @@ html, body, #App, .App, #app>div, div#root{
 
 }
 
+.container {
+  padding: 10px 0;
+  width:100%;
+  
+}
+
+.btn-white-orange {
+  border-color: #fff;
+  color: #fff;
+  background-color: #ff4c3a
+}
+
+p   {
+  max-width: 550px;
+}
+
+.orange-component { 
+  background: #ff4c3a;
+  color: #fff;
+  padding: 70px 0;
+  width: 100%;
+}
+
+.lightgrey-component {
+    background-color: #cecfc7;
+    padding: 70px 0;
+    max-width: 350px;
+}
+
+.btn-white {
+  background-clip: #cecfc7;
+  border-color: black;
+} 
+
+.VerticalNav{
+  background: #ff4c3a;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  width: 55px;
+  display: block;;
+}
+
+.VerticalNav a, .VerticalNav li{
+  display: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.orange {
+  background: #ff4c3a;
+}

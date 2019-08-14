@@ -7,21 +7,15 @@ class VerticalNav extends React.Component {
 
     render() {
         return (
-            <div className="VerticalNav-container" >
+            <div className="VerticalNav row" >
                 
                 <Nav vertical>
                     <NavItem>
-                        <NavLink href="#">Link</NavLink>
+                        <NavLink href="/home">Home</NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink href="#">Link</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink href="#">Another Link</NavLink>
-                    </NavItem>
-                    <NavItem>
-                        <NavLink disabled href="#">Disabled Link</NavLink>
-                    </NavItem>
+                        <NavLink href="/archivo">Archivo</NavLink>
+                    </NavItem>  
                 </Nav>
             </div>
         )    

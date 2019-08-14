@@ -1,29 +1,34 @@
 import React from 'react';
-import logo from './logo.svg';
-import Sidebar from './components/Sidebar';
+import ReactDom from 'react-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 import VerticalNav from './components/VerticalNav/VerticalNav';
 import Footer from './components/Footer/Footer';
-import ApilableInfinito from './components/ApilableInfinito/ApilableInfinito';
-import ProyectoReadMore from './components/ProyectoReadMore/ProyectoReadMore';
+import Home from './views/Home';
+import About from './views/About';
+import { NoMatch } from './views/NoMatch';
 import './App.css';
 
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      
-      {/* <Sidebar />  */}
-      {/* <header className="App-header">
-         
-      </header> */}
+    <div className="container-fluid">
       <VerticalNav />
-      <div className="page-content">  
-        <ApilableInfinito />
-        <ProyectoReadMore />
-        </div>
-      <Footer />
+
+      <Switch>
+        <Route exact path="/Home" component={Home} />
+
+        <Route exact path="/">
+          <Redirect to="/Home" />
+        </Route>
+        
+        <Route exact path="/About" component={About} />
+
+        <Route component={NoMatch} />
+      </Switch>
+
+      <Footer />  
     </div>
   );
-}
+};
 
 export default App;
