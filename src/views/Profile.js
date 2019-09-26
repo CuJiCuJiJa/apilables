@@ -1,16 +1,14 @@
 import React from 'react';
 import { Container, Row } from 'reactstrap';
-import ApilableInfinito from '../components/ApilableInfinito/ApilableInfinito';
-import ProjectPreview from '../components/ProjectPreview/ProjectPreview';
 
-const Home = props => {
+const Profile = props => {
   return (
     <div className="">
         <Row>
-            <ApilableInfinito />
+            
         </Row>
         <Row className="orange">
-            <ProjectPreview  />
+           
         </Row>
         <Row>
 
@@ -23,4 +21,4 @@ const Home = props => {
   );
 };
 
-export default Home;
+export default Profile;
