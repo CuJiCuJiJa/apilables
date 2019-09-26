@@ -5,8 +5,8 @@ class ProjectPreview extends React.Component {
 
     render() {
         return (
-            <Col >
-                <Jumbotron>
+            <Col className="orange" >
+                <Jumbotron className="orange" >
                     "IMAGEN"
                     <p>
                         “Apilable al infinito” (se apila, se archiva, se comparte).
