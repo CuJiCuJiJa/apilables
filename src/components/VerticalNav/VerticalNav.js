@@ -1,5 +1,5 @@
 import React from 'react';
-import './VerticalNav.css';
+import './VerticalNav.scss';
 import { Nav, NavItem, NavLink } from 'reactstrap';
 
 
@@ -10,12 +10,25 @@ class VerticalNav extends React.Component {
             <div className="VerticalNav row" >
                 
                 <Nav vertical>
+
                     <NavItem>
-                        <NavLink href="/home">Home</NavLink>
+                        <NavLink className="vertical-nav-item" href="/home">
+                                <img src={process.env.PUBLIC_URL + '/casa.svg'}  alt="" title="Apilable al infinito" />
+                        </NavLink>
                     </NavItem>
+
                     <NavItem>
-                        <NavLink href="/archivo">Archivo</NavLink>
+                        <NavLink className="vertical-nav-item" href="/archivo">
+                          <img src={process.env.PUBLIC_URL + '/carpeta.svg'}  alt="" title="Apilable al infinito" />
+                        </NavLink>
                     </NavItem>  
+
+                    <NavItem>
+                        <NavLink className="vertical-nav-item" href="/home">
+                                <img src={process.env.PUBLIC_URL + '/perfil.svg'}  alt="" title="Apilable al infinito" />
+
+                        </NavLink>
+                    </NavItem>
                 </Nav>
             </div>
         )    

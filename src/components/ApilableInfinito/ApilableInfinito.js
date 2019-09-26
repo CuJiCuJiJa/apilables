@@ -1,14 +1,14 @@
 import React from 'react';
 import { Col } from 'reactstrap';
-// import './ApilableInfinito.css';
-// import { Nav, NavLink, NavItem } from 'reactstrap';
+import './ApilableInfinito.scss';
+import './byn.jpg'; // Tell Webpack this JS file uses this image
+
 
 
 class ApilableInfinito extends React.Component {
-
     render() {
         return (
-            <Col xs={{offset: 10}}>
+            <Col className="back-img-home" >
                 <img src={process.env.PUBLIC_URL + '/apilablelogo.svg'}  alt="logo"/>
             </Col>
         )    

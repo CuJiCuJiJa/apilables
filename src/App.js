@@ -4,9 +4,10 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import VerticalNav from './components/VerticalNav/VerticalNav';
 import Footer from './components/Footer/Footer';
 import Home from './views/Home';
+import Profile from './views/Profile';
 import About from './views/About';
 import { NoMatch } from './views/NoMatch';
-import './App.css';
+import './App.scss';
 
 
 export const App = () => {
@@ -20,9 +21,13 @@ export const App = () => {
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
+  
+      <Route exact path="/Profile" component={Profile} />
+        
+        
         
         <Route exact path="/About" component={About} />
-
+     
         <Route component={NoMatch} />
       </Switch>
 

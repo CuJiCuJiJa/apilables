@@ -1,0 +1,9 @@
+.back-img-home{
+    background-image: url('./byn.jpg');
+    height: 100vh;
+    z-index: -1;
+    img{
+        position: absolute;
+        right: 5%;
+    }
+}
