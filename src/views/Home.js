@@ -6,7 +6,7 @@ import SignInAd from '../components/SignInAd/SignInAd';
 
 const Home = props => {
   return (
-    <Container>
+    <>
         <Row>
           <ApilableInfinito />
         </Row>
@@ -20,7 +20,7 @@ const Home = props => {
           <SignInAd />
         </Row>
 
-    </Container>
+    </>
   );
 };
 

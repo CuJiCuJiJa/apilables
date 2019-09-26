@@ -8,7 +8,7 @@ class SignInAd extends React.Component {
             <div className="lightgrey-component col-12">
                 <div>
                     <h3>Regístrate y conocé más sobre nosotros</h3>
-                    <button class="btn">Registrate</button> ó <button class="btn">Iniciá sesión</button>
+                    <a  class="btn">Registrate</button> ó <button class="btn">Iniciá sesión</button>
                 </div>
             </div>
         )    
