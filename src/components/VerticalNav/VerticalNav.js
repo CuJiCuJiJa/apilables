@@ -24,7 +24,7 @@ class VerticalNav extends React.Component {
                     </NavItem>  
 
                     <NavItem>
-                        <NavLink className="vertical-nav-item" href="/home">
+                        <NavLink className="vertical-nav-item" href="/home#registrarseoiniciar">
                                 <img src={process.env.PUBLIC_URL + '/perfil.svg'}  alt="" title="Apilable al infinito" />
 
                         </NavLink>

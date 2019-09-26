@@ -15,7 +15,7 @@ const Home = props => {
         <Row>
 
         </Row>
-        <Row>
+        <Row id="registrarseoiniciar">
 
         </Row>
 
