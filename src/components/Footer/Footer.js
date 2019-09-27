@@ -15,22 +15,16 @@ class Footer extends React.Component {
                             <NavLink href="fb.com">
                                 <img src={process.env.PUBLIC_URL + '/facebook.svg'} /> 
                             </NavLink>
-                        </NavItem>
-
-                        <NavItem>
                             <NavLink href="instagram.com">
-
+                                <img src={process.env.PUBLIC_URL + '/instagram.svg'} /> 
                             </NavLink>
                         </NavItem>
 
-                        <NavItem>
-                            <NavLink href="#">Another Link</NavLink>
-                        </NavItem>
 
                         <NavItem>
-                            <NavLink disabled href="#">Disabled Link</NavLink>
+                            <NavLink href="mailto:info@apilablealinfinito.com"> info@apilablealinfinito.com - copyright 2019 </NavLink>
                         </NavItem>
-                    </Nav>
+                    </Nav> 
                 </div>
             </div>
         )    

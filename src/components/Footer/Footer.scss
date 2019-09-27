@@ -1,9 +1,22 @@
 
 .gris{
-    background: #555;
+    background: rgb(138, 136, 136);
     .container{
-        ul li a{
-          color: white;                 
-        }
+        ul{ 
+          margin: auto;
+          text-align: center;
+          li {
+            margin: auto;
+            display: inherit;
+            a{
+              color: white; 
+              font-weight: bold;
+              img{
+                 fill: #fff;
+                 max-width: 30px;
+              }                
+            }
+          }
+      }
     }
 }
