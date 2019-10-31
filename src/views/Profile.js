@@ -1,12 +1,12 @@
 import React from 'react';
+import UserInfo from '../components/UserInfo/UserInfo';
 import { Container, Row } from 'reactstrap';
 
 const Profile = props => {
   return (
-    <div className="">
-        <Row>
-            
-        </Row>
+    <div className="full-heigth">
+        <UserInfo/>
+      
         <Row className="orange">
            
         </Row>

@@ -8,6 +8,7 @@ import Profile from './views/Profile';
 import About from './views/About';
 import { NoMatch } from './views/NoMatch';
 import './App.scss';
+import SignIn from './views/SignIn';
 
 
 export const App = () => {
@@ -18,12 +19,14 @@ export const App = () => {
       <Switch>
         <Route exact path="/Home" component={Home} />
 
+
         <Route exact path="/">
           <Redirect to="/Home" />
         </Route>
   
       <Route exact path="/Profile" component={Profile} />
         
+      <Route exact path="/Login" component={SignIn} />
         
         
         <Route exact path="/About" component={About} />
@@ -33,7 +36,7 @@ export const App = () => {
 
       <Footer />  
     </div>
-  );
+  ); 
 };
 
 export default App;

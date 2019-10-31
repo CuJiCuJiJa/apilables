@@ -79,3 +79,16 @@ p   {
 .orange {
   background-color: #ff4c3a;
 }
+
+.full-heigth{
+  min-height: calc(100vh - 66px);
+}
+
+.center-vertically-siform{
+  padding-top: calc( 50vh - 171px);
+  text-align: center;
+}
+
+.avoid-menu{
+  margin-left: 55px;
+}

@@ -1,0 +1,32 @@
+.perfil-container{
+    height: 500px;
+    .img-perfil{
+        height: 250px;
+        width: 250px;
+        border-radius: 300px;
+        overflow: hidden;
+        position: absolute;
+        top: 250px;
+        right: 3vw;
+        img{
+            width: auto;
+            height: inherit;
+        }
+    }
+
+}
+
+.user-info{
+    background-image: url('./byn.jpg');
+    height: 100vh;
+    .shadow-user-info{
+        background: linear-gradient(to bottom, rgb(233, 240, 206),  rgb(233, 240, 206), transparent);
+    }
+}
+
+.user-info-box{
+    padding-top: 8vh;
+    p{
+        padding: 0.2 !important;
+    }
+}
